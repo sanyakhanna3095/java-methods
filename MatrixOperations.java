@@ -27,6 +27,7 @@ public class MatrixOperations {
 
 		System.out.println("Transpose of a matrix :");
                 displayMatrix(transpose(matrix1));
+		System.out.println();
 		displayMatrix(transpose(matrix2));
  
         	if (n == m) {
@@ -36,6 +37,7 @@ public class MatrixOperations {
 		
 		System.out.println("Inverse of a matrix :");
                 displayMatrix(inverse(matrix1));
+		System.out.println();
                 displayMatrix(inverse(matrix2));
     	}
     
